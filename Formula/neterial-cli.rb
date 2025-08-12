@@ -1,14 +1,14 @@
 class NeterialCli < Formula
   desc "CLI for Neterial services"
   homepage "https://docs.neterial.io/#/CLI"
-  version "0.2.0"
+  version "0.3.0"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/neterialio/cli/releases/download/v0.2.0/neterial-v0.2.0-darwin-arm64.tar.gz"
-    sha256 "01785d73f4b0ad5920a15b0bc4096d445f9b68fb118f554ff7bf3c670b1a3192"
+    url "https://github.com/neterialio/cli/releases/download/v0.3.0/neterial-v0.3.0-darwin-arm64.tar.gz"
+    sha256 "bb4fb33c393032a950421160a0a6e77047e190552db631464954ba045048f89e"
   elsif OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/neterialio/cli/releases/download/v0.2.0/neterial-v0.2.0-linux-amd64.tar.gz"
-    sha256 "5d1b805f1a05fd5832df760ad24e880480a168e6f2e72a3397fb06693b9a068b"
+    url "https://github.com/neterialio/cli/releases/download/v0.3.0/neterial-v0.3.0-linux-amd64.tar.gz"
+    sha256 "68fe2bbdf18ff7cbd2b704719d3be20b70be5621c0d50f87cd3b9b11769203bc"
   end
 
   def install
