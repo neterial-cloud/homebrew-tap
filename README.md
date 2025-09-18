@@ -13,7 +13,7 @@ and Linux systems using the Homebrew package manager.
 ### Add the tap
 
 ```sh
-brew tap neterialio/tap
+brew tap neterial-cloud/tap
 ```
 
 ### Install Neterial CLI
